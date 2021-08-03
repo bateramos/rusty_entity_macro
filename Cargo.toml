@@ -5,6 +5,9 @@ authors = ["Pedro Ramos <pedrodevop@gmail.com>"]
 description = "Entity Macro to facilitate the implementation of Exercises for a German learning project"
 edition = "2018"
 license = "Apache-2.0"
+documentation = "https://docs.rs/rusty_german_entity_macro/0.1.0/rusty_german_entity_macro/"
+homepage = "https://docs.rs/rusty_german_entity_macro/0.1.0/rusty_german_entity_macro/"
+repository = "https://github.com/bateramos/rusty_german_entity_macro"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
