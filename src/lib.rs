@@ -5,7 +5,7 @@
 //!
 //! # Example
 //! ```
-//! use rusty_entity_macro::RustyEntity;
+//! use rusty_german_entity_macro::RustyEntity;
 //!
 //! #[derive(RustyEntity)]
 //! struct PrepositionExercise {
@@ -18,7 +18,7 @@
 //!
 //! This will generate a implementation as the following:
 //! ```
-//! use rusty_types::Exercise;
+//! use rusty_german_types::Exercise;
 //!
 //! struct PrepositionExercise {
 //!     prepo: String,
@@ -118,7 +118,7 @@ pub fn derive(input: TokenStream) -> TokenStream {
     });
 
     (quote! {
-        impl rusty_types::Exercise for #name {
+        impl rusty_german_types::Exercise for #name {
             #(#implemented_getters)*
         }
     }).into()

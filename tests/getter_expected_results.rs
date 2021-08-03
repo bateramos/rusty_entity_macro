@@ -1,5 +1,5 @@
-use rusty_entity_macro::RustyEntity;
-use rusty_types::Exercise;
+use rusty_german_entity_macro::RustyEntity;
+use rusty_german_types::Exercise;
 
 #[derive(RustyEntity)]
 pub struct Entity {

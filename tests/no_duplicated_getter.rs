@@ -1,4 +1,6 @@
 /// ```compile_fail
+/// use rusty_german_entity_macro::RustyEntity;
+///
 /// #[derive(RustyEntity)]
 /// pub struct Entity {
 ///    #[entity(description)]
