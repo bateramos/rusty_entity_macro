@@ -1,0 +1,25 @@
+[package]
+name = "rusty_entity_macro"
+version = "0.1.0"
+authors = ["ramos"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+proc-macro = true
+
+[[bin]]
+name = "test"
+path = "src/main.rs"
+
+[[test]]
+name = "tests"
+path = "tests/setup.rs"
+
+[dev-dependencies]
+trybuild = { version = "1.0", features = ["diff"] }
+
+[dependencies]
+syn = { version = "1.0.74", features = ["extra-traits"] }
+quote = "1.0"
+rusty_types = { path = "../rusty-types" }
